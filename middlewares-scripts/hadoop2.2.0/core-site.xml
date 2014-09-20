@@ -1,0 +1,23 @@
+<configuration>
+        <property>
+            <name>fs.defaultFS</name>
+            <value>hdfs://hadoop1:9000</value>
+        </property>
+        <property>
+            <name>io.file.buffer.size</name>
+            <value>131072</value>
+        </property>
+        <property>
+            <name>hadoop.tmp.dir</name>
+            <value>/home/hadoop/hadoopp-2.2.0/mytmp</value>
+            <description>A base for other temporarydirectories.</description>
+        </property>
+        <property>
+            <name>hadoop.proxyuser.root.hosts</name>
+            <value>hadoop1</value>
+        </property>
+        <property>
+            <name>hadoop.proxyuser.root.groups</name>
+            <value>*</value>
+        </property>
+</configuration>
